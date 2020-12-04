@@ -88,7 +88,7 @@ fun main() {
  * Assumption: Trust the path has always this two values
  * Assumption: The slope right is not bigger than the length of the "initial map" (without duplicate it)
  * Assumption: The "down" slope always is possible with the length of the path
- * Prejudice: I am afraid of playing with array :'(
+ * Prejudice: I am afraid of playing with matrix :'(
  * Order: will say "n" as the length of the input and the input as a matrix
  */
 internal fun transverseTheMapAndCountTrees(

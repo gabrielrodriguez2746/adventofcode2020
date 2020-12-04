@@ -18,14 +18,14 @@ class Day3Test {
     ).map { it.toCharArray() }.toTypedArray()
 
     @Test
-    fun `GIVEN example input WHEN transverseTheMapAndCountTrees THE return expected`() {
+    fun `GIVEN example input WHEN transverseTheMapAndCountTrees THEN return expected`() {
         val expected = 7
         val result = transverseTheMapAndCountTrees(input, Slope(3, 1), MapCoordinate(0, 0))
         assertEquals(expected, result)
     }
 
     @Test
-    fun `GIVEN example input WHEN transverseTheMapAndCountTrees with different combinations THE return expected`() {
+    fun `GIVEN example input WHEN transverseTheMapAndCountTrees with different combinations THEN return expected`() {
         val expected1 = 2
         val expected2 = 7
         val expected3 = 3
